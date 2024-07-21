@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: "Inter", sans-serif;
+}
+body{
+  background: #000000;
+}
+/* .Navbar {
+  background:rgb(15, 34, 46)
+} */
+.Navbar {
+  background: rgb(33, 151, 224);
+  
+}
+
+
+
+.Footer{
+  background:black;
+}

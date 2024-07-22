@@ -15,8 +15,8 @@ const Footer = () => {
       <div className="flex justify-between items-start mx-auto max-w-screen-lg py-8 px-4 md:px-8">
   {/* Left section */}
   <div className="flex items-center">
-    <img className=" absolute w-20 h-20 -mt-[180px]" src={logo} alt="logo" />
-    <div className="ml-4">
+    <img className=" absolute w-20 h-20 -mt-[180px] -ml-5 sm:-ml-[5px] md:ml-[4px]" src={logo} alt="logo" />
+    <div className="-ml-2 lg:ml-6 md:ml-5 sm:ml-2">
       <h1 className="text-white ml-14 font-bold text-4xl">FIT HUB</h1>
       <p className="text-white mt-2 w-[210px]">
         Explore Our Gym Website For A Seamless Fitness Experience, Offering Expert Guidance, Personalized Plans, And A Supportive Community To Elevate Your Workouts.
@@ -25,11 +25,11 @@ const Footer = () => {
   </div>
 
   {/* Right section */}
-  <div className="block items-center ml-6 md:ml-0 mt-6 md:mt-0">
+  <div className="block items-center -ml-0 md:ml-0 mt-6 md:mt-0">
     <div className="flex -ms-4 px-6 -mt-6   items-center">
       <h1 className="text-white font-bold text-4xl">Stop</h1>
       <img className="w-20 -ml-2 h-20 " src={logo} alt="logo" />
-      <button className="rounded-full bg-yellow-600 text-white -ml-2 px-2 ">
+      <button className="absolute rounded-full bg-yellow-600 text-white lg:-mt-0 lg:ml-[145px] md:-mt-0 md:ml-[143px] ml-8 mt-[80px] px-2 ">
         Enroll
       </button>
     </div>

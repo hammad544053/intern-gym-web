@@ -32,8 +32,8 @@ const Hero = () => {
       />
 
       {/* Heading overlay */}
-      <div className="absolute items-start left-[250px] top-1/2 w-[460px] transform -translate-x-1/2 -translate-y-1/2 text-left ml-1 text-white z-10">
-  <h1 className="text-4xl mt-[-230px] font-bold">
+      <div className="absolute items-start left-[180px] top-1/2 w-[350px] transform -translate-x-1/2 -translate-y-1/2 text-left ml-1 text-white z-10">
+  <h1 className="text-2xl lg:text-4xl md:text-3xl sm:text-2xl mt-[-230px] font-bold">
     Elevate your fitness Journey. Enroll in our Gym classes now!
   </h1>
   <p className="mt-1  text-black-900">

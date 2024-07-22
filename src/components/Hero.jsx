@@ -11,7 +11,7 @@ import Discount60 from "../assets/Discount-60.png";
 import { MoveRight } from 'lucide-react';
 
 //  Imported all pages
-import Push from "../pages/Push";
+// import Push from "../pages/Push";
 import Plans from "../pages/Plans";
 import Slider1 from "../pages/Slider1";
 import Slider2 from "../pages/Slider2";
@@ -32,7 +32,7 @@ const Hero = () => {
       />
 
       {/* Heading overlay */}
-      <div className="absolute items-start left-[180px] top-1/2 w-[350px] transform -translate-x-1/2 -translate-y-1/2 text-left ml-1 text-white z-10">
+      <div className="absolute items-start left-[180px] top-1/2 w-[340px] transform -translate-x-1/2 -translate-y-1/2 text-left ml-1 text-white z-10">
   <h1 className="text-2xl lg:text-4xl md:text-3xl sm:text-2xl mt-[-230px] font-bold">
     Elevate your fitness Journey. Enroll in our Gym classes now!
   </h1>
@@ -48,7 +48,7 @@ const Hero = () => {
 </div>
     </div>
 
-<Push />    
+{/* <Push />     */}
     
     {/* Our Trtaining section */}
     <div className="py-8">

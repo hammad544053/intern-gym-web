@@ -17,7 +17,7 @@ const Push = () => {
     is a step towards a stronger, more vibrant you. Push your boundaries. Push
     your health forward, and let your inner strength shine.
   </p>
-    <div className='flex justify-between text-center px-4 lg:px-[90px] sm:px-[20px]'>
+    <div className='flex justify-between text-center px-4 lg:px-[90px]  sm:px-[20px]'>
     <div>
     <Dumbbell className=' text-lime-500 w-[100px] h-[140px]' />
     </div>
@@ -33,7 +33,7 @@ const Push = () => {
   </div>
 
   <div className='flex  justify-center text-center '>
-  <div className=' pr-[10px]'>
+  <div className='px-0'>
     <h1 className='font-bold py-2'>QUALITY EQUIPMENT</h1>
     <p className='text-white'>Reliable performance starts with quality equipment. Our products are built to last ensuring for success.</p>
   </div>

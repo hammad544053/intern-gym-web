@@ -41,7 +41,7 @@ const Footer = () => {
 
       <div className="border-b-2"></div>
 
-      <div className="text-white flex gap-4 text-center">
+      <div className="text-white flex gap-1 text-center">
         <div className="flex-1">
           <h1>Contact Us</h1>
           <p>+92320-9392671</p>

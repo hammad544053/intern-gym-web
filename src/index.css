@@ -10,14 +10,80 @@
 body{
   background: #000000;
 }
-/* .Navbar {
-  background:rgb(15, 34, 46)
-} */
+
 .Navbar {
-  background: rgb(33, 151, 224);
-  
+  background: rgb(125, 192, 233);
+  transition: background 2s;
 }
 
+.Navbar:hover {
+  background: black;
+}
+
+.Navbar:hover .Navbtns {
+  color: white;
+  transition: color 2s;
+}
+
+
+.Navbar:hover .Navheading {
+  background: linear-gradient(to right, #e54646, #04fa00, #0004ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: background 2s, color 2s;
+}
+
+.Navbar:hover .Navheading2 {
+  background: linear-gradient(to right, #f2ff00, #ff00c8, #b81010);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: background 2s, color 2s;
+}
+.Navbar:hover .Navheading3 {
+  background: linear-gradient(to right, #e54646, #04fa00, #0004ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: background 2s, color 2s;
+}
+.Navbar:hover .Navheading4 {
+  background: linear-gradient(to right, #f2ff00, #ff00c8, #b81010);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: background 2s, color 2s;
+}
+
+
+
+.Navheading {
+  background: linear-gradient(45deg, #072312, #0b2947, #eb2f0e, #ff03ff);
+  background-size: 200% 300% 400%;
+  animation: glowingText 5s ease infinite;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.Navheading2 {
+  background: linear-gradient(45deg, #0a4623, #78890c, #6a1e89, #ff0066);
+  background-size: 200% 300% 400%;
+  animation: glowingText 5s ease infinite;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.Navheading3 {
+  background: linear-gradient(45deg, #072312, #0b2947, #eb2f0e, #ff03ff);
+  background-size: 200% 300% 400%;
+  animation: glowingText 5s ease infinite;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.Navheading4 {
+  background: linear-gradient(45deg, #0a4623, #78890c, #6a1e89, #ff0066);
+  background-size: 200% 300% 400%;
+  animation: glowingText 5s ease infinite;
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
 
 .Footer{

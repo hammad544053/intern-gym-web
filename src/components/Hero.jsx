@@ -1,5 +1,4 @@
 
-//  The Main pic of gym
 import homefullscreenpic from "../assets/home-full-screen-pic.jpg";
 import vidicon from "../assets/vid-icon.png";
 import latestblogs1 from "../assets/latest-blogs-1.jpg";
@@ -11,7 +10,7 @@ import Discount60 from "../assets/Discount-60.png";
 import { MoveRight } from 'lucide-react';
 
 //  Imported all pages
-// import Push from "../pages/Push";
+import Push from "../pages/Push";
 import Plans from "../pages/Plans";
 import Slider1 from "../pages/Slider1";
 import Slider2 from "../pages/Slider2";
@@ -48,14 +47,14 @@ const Hero = () => {
 </div>
     </div>
 
-{/* <Push />     */}
+<Push />    
     
     {/* Our Trtaining section */}
     <div className="py-8">
       <h2 className="font-bold text-4xl text-white mb-4 text-center"> Look at Our Trainings</h2>
       <p className="mx-auto text-slate-400 text-center mb-4">Unleash your potential through dynamic gym training sessions. where strenghth meeets endurance for a healthier, stronger you.</p>
     <Slider1 />
-    <button className="flex items-center mx-auto bg-yellow-600 py-2 rounded px-1"> Show More<MoveRight /></button>
+    <button className="flex items-center mx-auto bg-yellow-600 hover:text-white hover:font-bold hover:font-serif hover:bg-blue-500 py-2 rounded px-1"> Show More <MoveRight /></button>
 
     </div>
       {/* Latest Blogs Section */}

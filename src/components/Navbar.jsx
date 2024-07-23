@@ -48,12 +48,15 @@ const Navbar = () => {
             className="w-20 h-20 rounded-full absolute -mt-4 md:-mt-4 md:-ml-[60px] lg:-ml-20 -ml-[60px]"
           />
 
-          <span className="text-2xl md:text-2xl lg:text-5xl font-serif gradient-text bg-gradient-to-r from-[#ff0000] via-[#256124] to-[#0004ff] bg-clip-text text-transparent hover:text-black">
-            FIT {' '}
-          </span>
-          <span className="text-2xl md:text-2xl lg:text-5xl font-serif gradient-text bg-gradient-to-r from-[#f2ff00] via-[#ff00c8] to-[#b81010] hover:text-black bg-clip-text text-transparent">
-            HUB
-          </span>
+<span className="Navheading text-2xl md:text-2xl lg:text-5xl font-serif gradient-text text-transparent bg-clip-text">
+  FIT {' '}
+</span>
+
+<span className="Navheading2 text-2xl md:text-2xl lg:text-5xl font-serif gradient-text text-transparent bg-clip-text">
+  HUB
+</span>
+
+
         </Link>
       </div>
 
@@ -62,35 +65,35 @@ const Navbar = () => {
         <nav className="flex  absolute  lg:gap-2 font-Poppins font-bold text-white md:text-lg ">
           <Link
             to="/"
-            className="text-black hover:text-[#ffffff] px-2 border-2 hover:bg-black hover:rounded-[20px] border-transparent hover:border-[#0000ff] hover:border-opacity-80"
+            className="text-black hover:text-[#ffffff] px-2 border-2 border-transparent hover:border-[#0000ff] hover:bg-black hover:rounded-[20px] hover:border-opacity-80 relative Navbtns"
           >
             Home
           </Link>
 
           <Link
             to="/about"
-            className="text-black hover:text-[#ffffff] px-2 border-2 hover:bg-black hover:rounded-[20px] border-transparent hover:border-[#0000ff] hover:border-opacity-80"
+            className="text-black hover:text-[#ffffff] px-2 border-2 border-transparent hover:border-[#0000ff] hover:bg-black hover:rounded-[20px] hover:border-opacity-80 relative Navbtns"
           >
             About
           </Link>
 
           <Link
             to="/events"
-            className="text-black hover:text-[#ffffff] px-2 border-2 hover:bg-black hover:rounded-[20px] border-transparent hover:border-[#0000ff] hover:border-opacity-80"
+            className="text-black hover:text-[#ffffff] px-2 border-2 border-transparent hover:border-[#0000ff] hover:bg-black hover:rounded-[20px] hover:border-opacity-80 relative Navbtns"
           >
             Events
           </Link>
 
           <Link
             to="/blogs"
-            className="text-black hover:text-[#ffffff] px-2 border-2  hover:border-[#0000ff] hover:bg-black hover:rounded-[20px] border-transparent hover:border-opacity-80"
+            className="text-black hover:text-[#ffffff] px-2 border-2 border-transparent hover:border-[#0000ff] hover:bg-black hover:rounded-[20px] hover:border-opacity-80 relative Navbtns"
           >
             Blogs
           </Link>
 
           <Link
             to="/contact"
-            className="text-black hover:text-[#ffffff] px-2 border-2 border-transparent hover:border-[#0000ff] hover:bg-black hover:rounded-[20px] hover:border-opacity-80 relative"
+            className="text-black hover:text-[#ffffff] px-2 border-2 border-transparent hover:border-[#0000ff] hover:bg-black hover:rounded-[20px] hover:border-opacity-80 relative Navbtns"
           >
             Contact
             
@@ -127,7 +130,7 @@ const Navbar = () => {
       <div className="md:hidden">
         <button
           onClick={toggleMenu}
-          className="text-3xl text-black cursor-pointer"
+          className="text-3xl Navbtns  text-black cursor-pointer"
         >
           {open ? <VscClose /> : <RiMenu2Fill />}
         </button>
@@ -150,10 +153,10 @@ const Navbar = () => {
             to="/"
             className="font-Averia font-bold ml-2 bg-opacity-35 px-7"
           >
-            <span className="text-3xl  font-serif text-black">
-              FITNESS {/* */}
+            <span className="Navheading3  text-3xl  font-serif text-black">
+              FIT {/* */}
             </span>
-            <span className="text-3xl font-serif text-black">
+            <span className="text-3xl font-serif Navheading4 text-black">
               HUB
             </span>
           </Link>
@@ -162,7 +165,7 @@ const Navbar = () => {
         <Link
           onClick={toggleMenu}
           to="/"
-          className="block text-black p-4 hover:text-[#000dfd] hover:font-bold"
+          className="block text-black p-4 hover:font-bold border-2 border-transparent hover:border-[#0000ff] hover:bg-black hover:rounded-[20px] hover:border-opacity-80 Navbtns"
         >
           Home
         </Link>
@@ -170,7 +173,7 @@ const Navbar = () => {
         <Link
           onClick={toggleMenu}
           to="/about"
-          className="block text-black p-4 hover:text-[#000dfd] hover:font-bold"
+          className="block text-black p-4 hover:text-[#000dfd] hover:font-bold border-2 border-transparent hover:border-[#0000ff] hover:bg-black hover:rounded-[20px] hover:border-opacity-80 Navbtns"
         >
           About
         </Link>
@@ -178,7 +181,7 @@ const Navbar = () => {
         <Link
           onClick={toggleMenu}
           to="/events"
-          className="block text-black p-4 hover:text-[#000dfd] hover:font-bold"
+          className="block text-black p-4 hover:text-[#000dfd] hover:font-bold border-2 border-transparent hover:border-[#0000ff] hover:bg-black hover:rounded-[20px] hover:border-opacity-80 Navbtns"
         >
           Events
         </Link>
@@ -186,7 +189,7 @@ const Navbar = () => {
         <Link
           onClick={toggleMenu}
           to="/blogs"
-          className="block text-black p-4 hover:text-[#000dfd] hover:font-bold"
+          className="block text-black p-4 hover:text-[#000dfd] hover:font-bold border-2 border-transparent hover:border-[#0000ff] hover:bg-black hover:rounded-[20px] hover:border-opacity-80 Navbtns"
         >
           Blogs
         </Link>
@@ -194,14 +197,14 @@ const Navbar = () => {
         <Link
           onClick={toggleMenu}
           to="contact"
-          className="block text-black p-4 hover:text-[#000dfd] hover:font-bold"
+          className="block text-black p-4 hover:text-[#000dfd] hover:font-bold border-2 border-transparent hover:border-[#0000ff] hover:bg-black hover:rounded-[20px] hover:border-opacity-80 Navbtns "
         >
           Contact
         </Link>
         <img
           src={dp}
           alt="Profile"
-          className="w-10 h-10 rounded-full mx-auto -mt-[320px] mr-2"
+          className="w-10 h-10 rounded-full mx-auto -mt-[320px] mr-2 Navbtns"
         />
       </nav>
     </div>
